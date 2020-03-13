@@ -29,7 +29,7 @@ while not re.match(r'^\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}$', ipd):
 
 nbSr = ''
 while not re.match(r'\d', nbSr):
-    nbSr = input("Entrer le nombre de sous réseau >>> ")
+    nbSr = input("Entrer le nombre des sous réseaux >>> ")
 
 sR = {}
 for i in range(int(nbSr)):
